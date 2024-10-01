@@ -11,3 +11,5 @@
 
 **negritas**
 _italica_
+
+***negrita italica***
