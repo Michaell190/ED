@@ -33,5 +33,6 @@ int main() {
     short int numeroCorto = 32000;
     cout << "Entero corto: " << numeroCorto << endl;
     cout << "short int : " << numeric_limits<short int>::min() << " a " << numeric_limits<short int>::max();
+```
 
 ![imagen](https://www.alfaromeousa.com/content/dam/alfa/cross/homepage/trim/trim-2023/AR-Trim-HP-Stelvio-Veloce%20Rossa-MCA.png)
