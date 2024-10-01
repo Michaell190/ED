@@ -13,3 +13,23 @@
 _italica_
 
 ***negrita italica***
+```C++
+#include <iostream>
+#include <limits>
+#include <iomanip>
+#include <locale>
+using namespace std;
+
+int main() {
+//
+    locale loc("");
+    cout.imbue(loc);
+    // 1. Entero (int)
+    int numeroEntero = 42;
+    cout << "Entero: " << numeroEntero << endl;
+    cout << "Rango INT : " << numeric_limits<int>::min() << " a " << numeric_limits<int>::max();
+
+    // 2. Entero corto (short int)
+    short int numeroCorto = 32000;
+    cout << "Entero corto: " << numeroCorto << endl;
+    cout << "short int : " << numeric_limits<short int>::min() << " a " << numeric_limits<short int>::max();
